@@ -1,6 +1,4 @@
-import patterns.behavioral.visitor.document_problem.Problem2;
-import patterns.behavioral.visitor.shape_problem.Problem1;
-import patterns.stack_overflow.StackOverflowDemo;
+import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -22,9 +20,24 @@ public class Main {
 //        Problem2 problem2 = new Problem2();
 //        problem2.Solve();
 
-        StackOverflowDemo stackOverflowDemo = new StackOverflowDemo();
 
-        stackOverflowDemo.runDemo();
+        // STACKOVERFLOW DEMO
+//        StackOverflowDemo stackOverflowDemo = new StackOverflowDemo();
+//
+//        stackOverflowDemo.runDemo();
+
+        // OBSERVER PATTERN: WEATHER STATION
+
+//        WeatherStationPattern pattern = new WeatherStationPattern();
+//        pattern.solve();
+
+        // OBSERVER PATTERN: AUCTION SYSTEM
+
+        patterns.behavioral.observer.auction_system.AuctionSystem auctionSystem = new patterns.behavioral.observer.auction_system.AuctionSystem();
+        auctionSystem.solve();
+
+        // TIP To <b>Stop</b> code, press <shortcut actionId="Stop"/> or click the <icon src="AllIcons.Actions.Suspend"/> icon in the gutter.
+
 
     }
 }
