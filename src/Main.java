@@ -1,5 +1,6 @@
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.logging_framework.LoggingFrameworkDemo;
+import patterns.traffic_control_system.src.TrafficControlDemo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -39,8 +40,9 @@ public class Main {
 
         // TIP To <b>Stop</b> code, press <shortcut actionId="Stop"/> or click the <icon src="AllIcons.Actions.Suspend"/> icon in the gutter.
 
-        LoggingFrameworkDemo.runDemo();
+//        LoggingFrameworkDemo.runDemo();
 
+        TrafficControlDemo.demo();
 
     }
 }
