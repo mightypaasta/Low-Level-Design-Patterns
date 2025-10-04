@@ -1,4 +1,3 @@
-import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.logging_framework.LoggingFrameworkDemo;
 
