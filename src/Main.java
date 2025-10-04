@@ -1,3 +1,4 @@
+import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.logging_framework.LoggingFrameworkDemo;
 
@@ -39,8 +40,9 @@ public class Main {
 
         // TIP To <b>Stop</b> code, press <shortcut actionId="Stop"/> or click the <icon src="AllIcons.Actions.Suspend"/> icon in the gutter.
 
-        LoggingFrameworkDemo.runDemo();
+//        LoggingFrameworkDemo.runDemo();
 
+        ATMDemo.demo();
 
     }
 }
