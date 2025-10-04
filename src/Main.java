@@ -1,5 +1,6 @@
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.logging_framework.LoggingFrameworkDemo;
+import patterns.task_manager.TaskManagerDemo;
 import patterns.traffic_control_system.src.TrafficControlDemo;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -42,7 +43,9 @@ public class Main {
 
 //        LoggingFrameworkDemo.runDemo();
 
-        TrafficControlDemo.demo();
+//        TrafficControlDemo.demo();
 
+        TaskManagerDemo tmDemo = new TaskManagerDemo();
+        tmDemo.run();
     }
 }
