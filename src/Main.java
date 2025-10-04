@@ -1,3 +1,4 @@
+import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.logging_framework.LoggingFrameworkDemo;
 import patterns.task_manager.TaskManagerDemo;
@@ -45,7 +46,9 @@ public class Main {
 
 //        TrafficControlDemo.demo();
 
-        TaskManagerDemo tmDemo = new TaskManagerDemo();
-        tmDemo.run();
+//        TaskManagerDemo tmDemo = new TaskManagerDemo();
+//        tmDemo.run();
+
+        ATMDemo.demo();
     }
 }
