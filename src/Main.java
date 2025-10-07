@@ -1,6 +1,8 @@
 import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
+import patterns.linkedin.LinkedInDemo;
 import patterns.logging_framework.LoggingFrameworkDemo;
+import patterns.lrucache.LRUCacheDemo;
 import patterns.task_manager.TaskManagerDemo;
 import patterns.traffic_control_system.src.TrafficControlDemo;
 
@@ -49,6 +51,10 @@ public class Main {
 //        TaskManagerDemo tmDemo = new TaskManagerDemo();
 //        tmDemo.run();
 
-        ATMDemo.demo();
+//        ATMDemo.demo();
+
+//        LinkedInDemo.Demo();
+
+        LRUCacheDemo.Demo();
     }
 }
