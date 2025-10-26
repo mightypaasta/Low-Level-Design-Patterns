@@ -1,5 +1,6 @@
 import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
+import patterns.car_rental.CarRentalDemo;
 import patterns.linkedin.LinkedInDemo;
 import patterns.logging_framework.LoggingFrameworkDemo;
 import patterns.lrucache.LRUCacheDemo;
@@ -55,6 +56,8 @@ public class Main {
 
 //        LinkedInDemo.Demo();
 
-        LRUCacheDemo.Demo();
+//        LRUCacheDemo.Demo();
+
+        CarRentalDemo.run();
     }
 }
