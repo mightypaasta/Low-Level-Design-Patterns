@@ -1,6 +1,7 @@
 import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.car_rental.CarRentalDemo;
+import patterns.hotel_management.HotelManagementSystemDemo;
 import patterns.linkedin.LinkedInDemo;
 import patterns.logging_framework.LoggingFrameworkDemo;
 import patterns.lrucache.LRUCacheDemo;
@@ -58,6 +59,8 @@ public class Main {
 
 //        LRUCacheDemo.Demo();
 
-        CarRentalDemo.run();
+//        CarRentalDemo.run();
+
+        HotelManagementSystemDemo.run();
     }
 }
