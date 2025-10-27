@@ -1,3 +1,4 @@
+import patterns.airline_management_system.AirlineManagementSystemDemo;
 import patterns.atm.ATMDemo;
 import patterns.behavioral.observer.weather_station.WeatherStationPattern;
 import patterns.car_rental.CarRentalDemo;
@@ -61,6 +62,8 @@ public class Main {
 
 //        CarRentalDemo.run();
 
-        HotelManagementSystemDemo.run();
+//        HotelManagementSystemDemo.run();
+
+        AirlineManagementSystemDemo.demo();
     }
 }
